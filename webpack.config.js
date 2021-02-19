@@ -7,7 +7,7 @@ module.exports = {
         rules: [
             {
                 test: /\.ts$/,
-                loader: 'ts-loader',
+                use: 'ts-loader',
                 include: [path.resolve(__dirname, 'src')]
             }
         ]
