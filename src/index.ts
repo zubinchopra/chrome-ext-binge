@@ -1,2 +1,3 @@
-console.log('hello');
-console.log('hello world');
+import { testFunc } from './test';
+
+testFunc();
