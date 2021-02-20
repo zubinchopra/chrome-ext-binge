@@ -1,0 +1,17 @@
+{
+    "name": "What's my next binge",
+    "description": "Find out what your friends are binging right now!",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}
